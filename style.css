@@ -814,7 +814,24 @@ a:hover {
     z-index: 1;
 }
 
+.contact-icon .contact-monogram {
+    font-size: 1.8rem;
+    color: #00aaff;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact-method:hover .contact-icon i {
+    color: #ffffff;
+}
+
+.contact-method:hover .contact-icon .contact-monogram {
     color: #ffffff;
 }
 
@@ -868,6 +885,10 @@ a:hover {
     }
     
     .contact-icon i {
+        font-size: 1.5rem;
+    }
+    
+    .contact-icon .contact-monogram {
         font-size: 1.5rem;
     }
     
