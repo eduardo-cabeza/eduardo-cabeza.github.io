@@ -349,6 +349,7 @@ a:hover {
     margin-bottom: 1.5rem;
     transition: all 0.4s ease;
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -392,36 +393,42 @@ a:hover {
 /* Colores específicos para cada skill */
 .skill-card:nth-child(1) i { /* Networking */
     background: linear-gradient(45deg, #00aaff, #00e676);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .skill-card:nth-child(2) i { /* Security Concepts */
     background: linear-gradient(45deg, #ff3e3e, #ff6b6b);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .skill-card:nth-child(3) i { /* Operating Systems */
     background: linear-gradient(45deg, #f0db4f, #ffd700);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .skill-card:nth-child(4) i { /* Tools */
     background: linear-gradient(45deg, #9fef00, #00e676);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .skill-card:nth-child(5) i { /* Scripting */
     background: linear-gradient(45deg, #ff6b6b, #ff3e3e);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .skill-card:nth-child(6) i { /* Methodologies */
     background: linear-gradient(45deg, #a64dff, #00aaff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -666,12 +673,14 @@ a:hover {
 
 .lab-platform-card .thm-icon { 
     background: linear-gradient(45deg, #ff455b, #ff6b6b);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .lab-platform-card .htb-icon { 
     background: linear-gradient(45deg, #9fef00, #00e676);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -815,8 +824,8 @@ a:hover {
 }
 
 .contact-icon .booking-logo {
-    width: 1.8rem;
-    height: auto;
+    height: 1.8rem;
+    width: auto;
     color: #00aaff; /* base color matches other icons */
     transition: all 0.3s ease;
     position: relative;
@@ -907,7 +916,8 @@ a:hover {
     }
     
     .contact-icon .booking-logo {
-        width: 1.5rem;
+        height: 1.5rem;
+        width: auto;
     }
     
     .contact-icon .contact-monogram {
