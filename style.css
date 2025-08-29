@@ -814,6 +814,20 @@ a:hover {
     z-index: 1;
 }
 
+.contact-icon .booking-logo {
+    width: 1.8rem;
+    height: auto;
+    color: #00aaff; /* base color matches other icons */
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.contact-icon .booking-logo path {
+    fill: currentColor; /* inherit from .booking-logo color to enable hover */
+}
+
 .contact-icon .contact-monogram {
     font-size: 1.8rem;
     color: #00aaff;
@@ -828,6 +842,10 @@ a:hover {
 }
 
 .contact-method:hover .contact-icon i {
+    color: #ffffff;
+}
+
+.contact-method:hover .contact-icon .booking-logo {
     color: #ffffff;
 }
 
@@ -886,6 +904,10 @@ a:hover {
     
     .contact-icon i {
         font-size: 1.5rem;
+    }
+    
+    .contact-icon .booking-logo {
+        width: 1.5rem;
     }
     
     .contact-icon .contact-monogram {
